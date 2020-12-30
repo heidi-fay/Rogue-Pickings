@@ -1,0 +1,168 @@
+/*****BASE STYLES*****/
+body {
+  background-color:#ffffff;
+  font-family:'Montserrat',sans-serif;
+  margin:auto;
+  width:1200px;
+}
+
+/*****GRID*****/
+.full-width {
+  margin:0 auto;
+  width:1200px;
+}
+
+.half-width {
+  float:left;
+  width:600px;
+}
+
+.third-width {
+  float:left;
+  width:398px;
+  border-top: solid 2px #dedbdc;
+}
+
+h1, h2, h3, h4 {
+  color:black
+  font-weight:700;
+  text-transform:uppercase;
+}
+
+h1{
+  font-size:30px;
+}
+
+h2 {
+  font-size:24px;
+}
+
+h3 {
+  font-size:18px;
+}
+
+h4 {
+  font-size:12px;
+}
+
+p {
+  font-size:14px;
+  line-height:21px;
+  padding:0 30px;
+}
+
+/*****HEADER*****/
+
+header {
+  float:left;
+  margin:0 auto;
+  padding:38px 0;
+}
+
+header h1 {
+  padding:33px 0px;
+}
+
+h1 span {
+  color:#77a466;
+}
+
+header nav {
+  float:right;
+  padding:46px 0px;
+}
+
+nav ul li {
+  color:#77a466;
+  display:inline;
+  font-size:14px;
+  font-weight:700;
+  line-height:23px;
+  padding:0 10px;
+  text-transform:uppercase;
+}
+
+nav ul li a {
+  color:#77a466;
+  text-decoration:none;
+}
+
+
+/*****TOP SECTION*****/
+
+#about {
+  clear:both;
+  margin:0 auto;
+}
+
+.full-width img {
+  border-bottom:4px solid #77a466;
+  border-top:4px solid #77a466;
+  height:auto;
+  float:left;
+}
+
+#about {
+  height:auto;
+  float:left;
+
+}
+
+#about h2 {
+color:#77a466;
+}
+
+/*****MENU*****/
+#section-one h4 {
+  padding:10px 0;
+}
+
+#section-one ul{
+  list-style:none;
+  padding:0;
+}
+
+#section-one li {
+  color:#77a466;
+  padding:10px 0;
+
+}
+
+/*****REVIEWS*****/
+
+#section-two .third-width {
+  border-left:solid 2px #dedbdc;
+  border-right:solid 2px #dedbdc;
+}
+
+#section-two p {
+  color:#333;
+  font-size:16px;
+  line-height:21px;
+  margin:30px;
+}
+
+#section-two h4, #section-three h4 {
+  padding:10px 30px;
+}
+
+#section-three p {
+  font-size:16px;
+  line-height:24px;
+}
+
+/*****FOOTER*****/
+
+ footer {
+  border-top:solid 2px #dedbdc;
+  clear:both;
+  margin:0 auto;
+  text-align:center;
+}
+
+footer span {
+  color:#77a466;
+  font-family:'Galada';
+  font-size:16px;
+  text-transform:lowercase;
+}
